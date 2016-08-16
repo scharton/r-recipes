@@ -1,10 +1,10 @@
 # a simple x-squared curve we all remember
-y <- function(x){
+ysquared <- function(x){
   x^2
 }
 
 # formula
-# from
-# to
-# number of values to evaluate
-curve(y, -5, 5, 100)
+from <- -5
+to <- 5
+curve(ysquared, from, to, number_of_values_to_evaluate)
+
